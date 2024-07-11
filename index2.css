@@ -1,0 +1,94 @@
+
+ @media (min-width: 767.98px) {
+   
+   .container {
+  background-color: #42445A;
+  background-image:url("cil5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px;
+  display: flex;
+  height: 20rem;
+}
+
+
+
+.state-select {
+  display: none;
+}
+
+.state-select2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 10px;
+ /* transform: translateY(-200px);*/
+}
+.state-select2 input {
+  height: 40px;
+  width: 20rem;
+  background-color: silver;
+  border-radius: 2px;
+  margin: 5px;
+  border:0;
+}
+.state-select2 select {
+  height: 40px;
+  width: 20rem;
+  border: 0;
+  border-radius: 2px;
+  background-color: silver;
+}
+.state-select button {
+  height: 40px;
+  width: 20rem;
+  background-color: #44497F;
+  border: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+.state-select button:hover {
+  background-color: royalblue;
+  transition: .2s;
+
+}
+
+#hidden {
+  display: none;
+}
+.book {
+  display: none;
+}
+.state-select3 {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+.state-select3 a button {
+  height: 30px;
+  width: 315px;
+  transform: translateX(170px);
+  border: 0;
+  background: #44497F;
+}
+.state-select3 a button:hover {
+  background: royalblue;
+}
+.state-select3 input {
+  height: 30px;
+  width: 320px;
+  background-color: silver;
+  border: 0;
+  border-radius: 2px;
+  transform: translateX(165px);
+}
+.message {
+  display: none;
+}
+.booking button {
+  width: 320px;
+}
+   
+ }
